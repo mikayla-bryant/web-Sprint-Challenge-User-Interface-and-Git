@@ -146,9 +146,11 @@ footer nav a {
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 3% 2%;
+    margin: 2% 18%;
+    width: 60%;
+    
 }
 
 header nav a {
@@ -159,8 +161,9 @@ header nav a {
 
 }
 
-header img {
-    margin: 0% 0% 4% 0%;
+.header-img {
+    margin: 3% auto;
+    width: 60%;
 }
 
 .box-1 {
