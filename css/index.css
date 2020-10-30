@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* Homepage */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -65,7 +67,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+ /* Header */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 18%;
+    width: 60%;
+    
+}
 
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.header-img {
+    margin: 3% auto;
+    width: 60%;
+}
+
+ /* Main Section */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +129,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Box Colors */
+
+.box-1 {
+    background: teal;
+}
+
+.box-2 {
+    background: gold;
+}
+
+.box-3 {
+    background: cadetblue;
+}
+
+.box-4 {
+    background: coral;
+}
+
+.box-5 {
+    background: crimson;
+}
+
+.box-6 {
+    background: forestgreen;
+}
+
+.box-7 {
+    background: darkorchid;
+}
+
+.box-8 {
+    background: hotpink;
+}
+
+.box-9 {
+    background: indigo;
+}
+
+.box-10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -125,6 +191,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -143,4 +211,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+.about-page {
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    width: 45%;
+    margin: 0 auto 2%;
+    padding: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-images img {
+    margin: 5% 0%;
+    width: 100%;
+}
+.text-box p {
+    margin: 8% 0%;
+}
+.text-box a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 3% 5%;
+    border-radius: 15px;
+   }
+  
+.text-box a:visited {
+ text-decoration: none;
+ color: black;
+}
+
+.about-bit {
+    margin: 2% auto;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-bit-bttm {
+    border-bottom: none;
 }
