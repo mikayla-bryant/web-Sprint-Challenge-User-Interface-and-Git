@@ -220,17 +220,36 @@ header nav a {
 
 .text-box {
     width: 45%;
-    margin: 2% auto;
-    padding: 2%;
+    margin: 0 auto 2%;
+    padding: 3%;
     border-bottom: 1px dashed black;
 }
 
 .text-box img {
-    margin: 2% auto;
+    margin: 3% auto;
+}
+.text-box p {
+    margin: 8% 0%;
+}
+.text-box a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 3% 5%;
+    border-radius: 15px;
+   }
+  
+.text-box a:visited {
+ text-decoration: none;
+ color: black;
 }
 
 .about-bit {
     margin: 2% auto;
     padding: 2%;
     border-bottom: 1px dashed black;
+}
+
+.about-bit-bttm {
+    border-bottom: none;
 }
