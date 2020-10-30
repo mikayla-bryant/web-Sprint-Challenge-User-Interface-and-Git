@@ -225,8 +225,9 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
-.text-box img {
-    margin: 3% auto;
+.about-images img {
+    margin: 5% 0%;
+    width: 100%;
 }
 .text-box p {
     margin: 8% 0%;
