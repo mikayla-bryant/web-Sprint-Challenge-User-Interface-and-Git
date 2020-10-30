@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* Homepage */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -65,7 +67,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+ /* Header */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 18%;
+    width: 60%;
+    
+}
 
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.header-img {
+    margin: 3% auto;
+    width: 60%;
+}
+
+ /* Main Section */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,60 +136,7 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2% 18%;
-    width: 60%;
-    
-}
-
-header nav a {
-    color: black;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    font-size: 0.9rem;
-
-}
-
-.header-img {
-    margin: 3% auto;
-    width: 60%;
-}
+/* Box Colors */
 
 .box-1 {
     background: teal;
@@ -205,6 +177,42 @@ header nav a {
 .box-10 {
     background: dodgerblue;
 }
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* About Page */
 
