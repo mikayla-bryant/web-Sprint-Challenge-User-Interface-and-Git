@@ -205,3 +205,32 @@ header nav a {
 .box-10 {
     background: dodgerblue;
 }
+
+/* About Page */
+
+.about-page {
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    width: 45%;
+    margin: 2% auto;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.text-box img {
+    margin: 2% auto;
+}
+
+.about-bit {
+    margin: 2% auto;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
